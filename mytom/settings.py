@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'tom_catalogs',
     'tom_observations',
     'tom_dataproducts',
+    'automatisation.apps.AutomatisationConfig',
 ]
 
 SITE_ID = 1
@@ -245,7 +246,7 @@ TOM_ALERT_CLASSES = [
     'tom_alerts.brokers.scout.ScoutBroker',
     'tom_alerts.brokers.tns.TNSBroker',
     'tom_antares.antares.ANTARESBroker',
-    'mytom.fink_broker.FinkBroker',
+    'tom_fink.fink.FinkBroker',
 ]
 
 BROKERS = {
